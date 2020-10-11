@@ -7,8 +7,6 @@ deploy:
 build:
   local:
     push: false
-  # googleCloudBuild:
-  #   projectId: ticketing-dev-277515
   artifacts:
     - image: denielaa/auth
       context: auth
